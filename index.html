@@ -84,6 +84,32 @@
     </form>
 
     <h3>Add an image for your profile! </h3>
-    <img src="images/student.jpg">
+    <img src="images/student.jpg" height="600" width="600">
+    <form action="http://www.example.com/upload.php"
+        method="post">
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" name="user-song" /><br />
+        <input type="submit" value="Upload" />
+    </form>
+
+    <h3>Contact?</h3>
+    <fieldset>
+        <legend><b>Please use the form below</b> </legend>
+        <label>First Name:<br />
+        <input type="text" name="first" /></label><br />
+        <label>Last Name:<br />
+        <input type="text" name="last" /></label><br />
+        <label>Email:<br />
+        <input type="text" name="email" /></label>
+    </fieldset>
+
+    <h3>Set a date when you can visit the campus! </h3>
+    <form action="http://www.example.com/bookings/"
+        method="post">
+        <label for="username">Departure date:</label>
+        <input type="date" name="depart" />
+        <input type="submit" value="Submit" />
+    </form>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
 </html>
